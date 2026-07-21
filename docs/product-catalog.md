@@ -13,271 +13,414 @@ resource "aeza_service" "server" {
 }
 ```
 
+## Breakdown
+
+| Resource type | Products |
+|---|---:|
+| VPS | 111 |
+| HiCPU | 15 |
+| Dedicated | 28 |
+| Domains | 220 |
+| Other | 20 |
+
+## VPS (111)
+
+| Product name | Service handler | Payment terms |
+|---|---|---|
+| `CLT-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `CLT-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `CLT-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `CLT-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `CLT-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `CLTs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `CLTs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `CLTs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `CLTs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `CLTs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DE-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DE-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DE-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DE-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DE-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DEs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DEs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DEs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DEs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `DEs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HEL-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HEL-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HEL-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HEL-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HEL-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HELs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HELs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HELs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HELs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `HELs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LND-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LND-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LND-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LND-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LND-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LNDs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LNDs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LNDs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LNDs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `LNDs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSK-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSK-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSK-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSK-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSK-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSKs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSKs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSKs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSKs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `MSKs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NL-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NL-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NL-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NL-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NL-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NLs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NLs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NLs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NLs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `NLs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PAR-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PAR-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PAR-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PAR-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PAR-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PARs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PARs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PARs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PARs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `PARs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPB-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPB-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPB-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPB-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPB-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPBs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPBs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPBs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPBs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SPBs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWE-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWE-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWE-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWE-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWE-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWE-PROMO` | `vm6` | month |
+| `SWEs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWEs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWEs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWEs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `SWEs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIE-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIE-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIE-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIE-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIE-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIEs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIEs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIEs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIEs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `VIEs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAW-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAW-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAW-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAW-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAW-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAWs-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAWs-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAWs-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAWs-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `WAWs-5` | `vm6` | half_year, hour, month, quarter_year, year |
+
+## HiCPU (15)
+
+| Product name | Service handler | Payment terms |
+|---|---|---|
+| `EFH-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `EFH-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `EFH-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `EFH-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `EFH-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `IC14-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `IC14-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `IC14-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `IC14-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `IC14-5` | `vm6` | half_year, hour, month, quarter_year, year |
+| `RX32-1` | `vm6` | half_year, hour, month, quarter_year, year |
+| `RX32-2` | `vm6` | half_year, hour, month, quarter_year, year |
+| `RX32-3` | `vm6` | half_year, hour, month, quarter_year, year |
+| `RX32-4` | `vm6` | half_year, hour, month, quarter_year, year |
+| `RX32-5` | `vm6` | half_year, hour, month, quarter_year, year |
+
+## Dedicated (28)
+
+| Product name | Service handler | Payment terms |
+|---|---|---|
+| `2x AMD EPYC 9654 – 1024 RAM, 200 Gbps` | `manual` | half_year, month, quarter_year, year |
+| `AMD EPYC 7702P – 10 Gbps` | `manual` | half_year, month, quarter_year, year |
+| `AMD EPYC 7702P – 100 Gbps` | `manual` | half_year, month, quarter_year, year |
+| `AMD EPYC 7702P – 512 RAM, 100 Gbps ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD EPYC 7702P – 512 RAM, 100 Gbps ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD EPYC 7702P – 512 RAM, 100 Gbps ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD EPYC 9454P – 256 RAM ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD EPYC 9454P – 256 RAM ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 5 3600 ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 5 3600 ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 7 3700X ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 7 3700X ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 7 7700` | `manual` | month |
+| `AMD Ryzen 9 3900` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 9 5950X ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 9 5950X ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 9 5950X – 10 Gbps` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 9 5950X – 100 Gbps` | `manual` | half_year, month, quarter_year, year |
+| `AMD Ryzen 9 7950X` | `manual` | month, year |
+| `Intel Core i5-13500` | `manual` | half_year, month, quarter_year, year |
+| `Intel Core i7-6700 ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `Intel Core i7-6700 ⚠ ambiguous` | `manual` | half_year, month, quarter_year, year |
+| `Intel Core i7-8700` | `manual` | half_year, month, quarter_year, year |
+| `Intel Core i9-9900K` | `manual` | half_year, month, quarter_year, year |
+| `Intel Xeon E5-2650 – 10 Gbps` | `manual` | half_year, month, quarter_year, year |
+| `Intel Xeon E5-2650 – 20 Gbps` | `manual` | half_year, month, quarter_year, year |
+| `Intel Xeon W-2295` | `manual` | half_year, month, quarter_year, year |
+| `Ryzen 7 7700 2X RAM` | `manual` | month |
+
+## Domains (220)
+
+| Product name | Service handler | Payment terms |
+|---|---|---|
+| `academy` | `feru` | year |
+| `agency` | `feru` | year |
+| `art` | `feru` | year |
+| `asia` | `feru` | year |
+| `associates` | `feru` | year |
+| `audio` | `feru` | year |
+| `bar` | `feru` | year |
+| `bargains` | `feru` | year |
+| `bid` | `feru` | year |
+| `bike` | `feru` | year |
+| `biz` | `feru` | year |
+| `blackfriday` | `feru` | year |
+| `blog` | `feru` | year |
+| `boutique` | `feru` | year |
+| `builders` | `feru` | year |
+| `bz` | `feru` | year |
+| `cab` | `feru` | year |
+| `camera` | `feru` | year |
+| `camp` | `feru` | year |
+| `capital` | `feru` | year |
+| `cards` | `feru` | year |
+| `care` | `feru` | year |
+| `careers` | `feru` | year |
+| `cash` | `feru` | year |
+| `catering` | `feru` | year |
+| `cc` | `feru` | year |
+| `center` | `feru` | year |
+| `chat` | `feru` | year |
+| `cheap` | `feru` | year |
+| `christmas` | `feru` | year |
+| `church` | `feru` | year |
+| `city` | `feru` | year |
+| `cleaning` | `feru` | year |
+| `click` | `feru` | year |
+| `clinic` | `feru` | year |
+| `clothing` | `feru` | year |
+| `cloud` | `feru` | year |
+| `club` | `feru` | year |
+| `co` | `feru` | year |
+| `codes` | `feru` | year |
+| `coffee` | `feru` | year |
+| `com` | `feru` | year |
+| `community` | `feru` | year |
+| `company` | `feru` | year |
+| `computer` | `feru` | year |
+| `condos` | `feru` | year |
+| `construction` | `feru` | year |
+| `contractors` | `feru` | year |
+| `cool` | `feru` | year |
+| `cruises` | `feru` | year |
+| `date` | `feru` | year |
+| `dating` | `feru` | year |
+| `de` | `feru` | year |
+| `deals` | `feru` | year |
+| `dental` | `feru` | year |
+| `dev` | `feru` | year |
+| `diamonds` | `feru` | year |
+| `digital` | `feru` | year |
+| `direct` | `feru` | year |
+| `directory` | `feru` | year |
+| `discount` | `feru` | year |
+| `domains` | `feru` | year |
+| `download` | `feru` | year |
+| `education` | `feru` | year |
+| `email` | `feru` | year |
+| `engineering` | `feru` | year |
+| `enterprises` | `feru` | year |
+| `equipment` | `feru` | year |
+| `estate` | `feru` | year |
+| `eu` | `feru` | year |
+| `events` | `feru` | year |
+| `exchange` | `feru` | year |
+| `expert` | `feru` | year |
+| `exposed` | `feru` | year |
+| `fail` | `feru` | year |
+| `farm` | `feru` | year |
+| `financial` | `feru` | year |
+| `fish` | `feru` | year |
+| `fitness` | `feru` | year |
+| `flights` | `feru` | year |
+| `florist` | `feru` | year |
+| `fm` | `feru` | year |
+| `foundation` | `feru` | year |
+| `fun` | `feru` | year |
+| `fund` | `feru` | year |
+| `furniture` | `feru` | year |
+| `gallery` | `feru` | year |
+| `games` | `feru` | year |
+| `gift` | `feru` | year |
+| `glass` | `feru` | year |
+| `golf` | `feru` | year |
+| `graphics` | `feru` | year |
+| `gripe` | `feru` | year |
+| `guide` | `feru` | year |
+| `guitars` | `feru` | year |
+| `guru` | `feru` | year |
+| `hiphop` | `feru` | year |
+| `holdings` | `feru` | year |
+| `host ⚠ ambiguous` | `feru` | year |
+| `hosting` | `feru` | year |
+| `house` | `feru` | year |
+| `in` | `feru` | year |
+| `industries` | `feru` | year |
+| `info` | `feru` | year |
+| `ink` | `feru` | year |
+| `institute` | `feru` | year |
+| `international` | `feru` | year |
+| `investments` | `feru` | year |
+| `io` | `feru` | year |
+| `juegos` | `feru` | year |
+| `kitchen` | `feru` | year |
+| `kz` | `feru` | year |
+| `land` | `feru` | year |
+| `lease` | `feru` | year |
+| `life` | `feru` | year |
+| `lighting` | `feru` | year |
+| `limited` | `feru` | year |
+| `limo` | `feru` | year |
+| `link` | `feru` | year |
+| `loan` | `feru` | year |
+| `love` | `feru` | year |
+| `maison` | `feru` | year |
+| `management` | `feru` | year |
+| `marketing` | `feru` | year |
+| `me` | `feru` | year |
+| `media` | `feru` | year |
+| `men` | `feru` | year |
+| `mn` | `feru` | year |
+| `mobi` | `feru` | year |
+| `monster` | `feru` | year |
+| `moscow` | `feru` | year |
+| `name` | `feru` | year |
+| `net` | `feru` | year |
+| `nu` | `feru` | year |
+| `online` | `feru` | year |
+| `ooo` | `feru` | year |
+| `org` | `feru` | year |
+| `partners` | `feru` | year |
+| `parts` | `feru` | year |
+| `party` | `feru` | year |
+| `photo` | `feru` | year |
+| `photography` | `feru` | year |
+| `photos` | `feru` | year |
+| `pics` | `feru` | year |
+| `pictures` | `feru` | year |
+| `pink` | `feru` | year |
+| `plumbing` | `feru` | year |
+| `press` | `feru` | year |
+| `pro ⚠ ambiguous` | `feru` | year |
+| `productions` | `feru` | year |
+| `properties` | `feru` | year |
+| `property` | `feru` | year |
+| `pw` | `feru` | year |
+| `recipes` | `feru` | year |
+| `red` | `feru` | year |
+| `reisen` | `feru` | year |
+| `rentals` | `feru` | year |
+| `repair` | `feru` | year |
+| `report` | `feru` | year |
+| `rest` | `feru` | year |
+| `restaurant` | `feru` | year |
+| `ro` | `feru` | year |
+| `ru` | `feru` | year |
+| `run` | `feru` | year |
+| `school` | `feru` | year |
+| `schule` | `feru` | year |
+| `services` | `feru` | year |
+| `sexy` | `feru` | year |
+| `shoes` | `feru` | year |
+| `shop` | `feru` | year |
+| `singles` | `feru` | year |
+| `site` | `feru` | year |
+| `solar` | `feru` | year |
+| `solutions` | `feru` | year |
+| `space` | `feru` | year |
+| `store` | `feru` | year |
+| `su` | `feru` | year |
+| `supplies` | `feru` | year |
+| `supply` | `feru` | year |
+| `support` | `feru` | year |
+| `surgery` | `feru` | year |
+| `systems` | `feru` | year |
+| `tatar` | `feru` | year |
+| `tattoo` | `feru` | year |
+| `tax` | `feru` | year |
+| `tech` | `feru` | year |
+| `technology` | `feru` | year |
+| `tel` | `feru` | year |
+| `tienda` | `feru` | year |
+| `tips` | `feru` | year |
+| `today` | `feru` | year |
+| `tools` | `feru` | year |
+| `top` | `feru` | year |
+| `town` | `feru` | year |
+| `toys` | `feru` | year |
+| `trade` | `feru` | year |
+| `training` | `feru` | year |
+| `tv` | `feru` | year |
+| `tw` | `feru` | year |
+| `university` | `feru` | year |
+| `uno` | `feru` | year |
+| `us` | `feru` | year |
+| `vacations` | `feru` | year |
+| `ventures` | `feru` | year |
+| `viajes` | `feru` | year |
+| `villas` | `feru` | year |
+| `vip` | `feru` | year |
+| `vision` | `feru` | year |
+| `voyage` | `feru` | year |
+| `watch` | `feru` | year |
+| `webcam` | `feru` | year |
+| `website` | `feru` | year |
+| `wiki` | `feru` | year |
+| `win` | `feru` | year |
+| `works` | `feru` | year |
+| `world` | `feru` | year |
+| `ws` | `feru` | year |
+| `wtf` | `feru` | year |
+| `xyz` | `feru` | year |
+| `zone` | `feru` | year |
+
+## Other (20)
+
 | Product name | Type | Service handler | Payment terms |
 |---|---|---|---|
-| `2x AMD EPYC 9654 – 1024 RAM, 200 Gbps` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD EPYC 7702P – 10 Gbps` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD EPYC 7702P – 100 Gbps` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD EPYC 7702P – 512 RAM, 100 Gbps ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD EPYC 7702P – 512 RAM, 100 Gbps ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD EPYC 7702P – 512 RAM, 100 Gbps ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD EPYC 9454P – 256 RAM ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD EPYC 9454P – 256 RAM ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 5 3600 ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 5 3600 ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 7 3700X ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 7 3700X ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 7 7700` | `dedicated` | `manual` | month |
-| `AMD Ryzen 9 3900` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 9 5950X ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 9 5950X ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 9 5950X – 10 Gbps` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 9 5950X – 100 Gbps` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `AMD Ryzen 9 7950X` | `dedicated` | `manual` | month, year |
-| `Intel Core i5-13500` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `Intel Core i7-6700 ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `Intel Core i7-6700 ⚠ ambiguous` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `Intel Core i7-8700` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `Intel Core i9-9900K` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `Intel Xeon E5-2650 – 10 Gbps` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `Intel Xeon E5-2650 – 20 Gbps` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `Intel Xeon W-2295` | `dedicated` | `manual` | half_year, month, quarter_year, year |
-| `Ryzen 7 7700 2X RAM` | `dedicated` | `manual` | month |
-| `academy` | `domain` | `feru` | year |
-| `agency` | `domain` | `feru` | year |
-| `art` | `domain` | `feru` | year |
-| `asia` | `domain` | `feru` | year |
-| `associates` | `domain` | `feru` | year |
-| `audio` | `domain` | `feru` | year |
-| `bar` | `domain` | `feru` | year |
-| `bargains` | `domain` | `feru` | year |
-| `bid` | `domain` | `feru` | year |
-| `bike` | `domain` | `feru` | year |
-| `biz` | `domain` | `feru` | year |
-| `blackfriday` | `domain` | `feru` | year |
-| `blog` | `domain` | `feru` | year |
-| `boutique` | `domain` | `feru` | year |
-| `builders` | `domain` | `feru` | year |
-| `bz` | `domain` | `feru` | year |
-| `cab` | `domain` | `feru` | year |
-| `camera` | `domain` | `feru` | year |
-| `camp` | `domain` | `feru` | year |
-| `capital` | `domain` | `feru` | year |
-| `cards` | `domain` | `feru` | year |
-| `care` | `domain` | `feru` | year |
-| `careers` | `domain` | `feru` | year |
-| `cash` | `domain` | `feru` | year |
-| `catering` | `domain` | `feru` | year |
-| `cc` | `domain` | `feru` | year |
-| `center` | `domain` | `feru` | year |
-| `chat` | `domain` | `feru` | year |
-| `cheap` | `domain` | `feru` | year |
-| `christmas` | `domain` | `feru` | year |
-| `church` | `domain` | `feru` | year |
-| `city` | `domain` | `feru` | year |
-| `cleaning` | `domain` | `feru` | year |
-| `click` | `domain` | `feru` | year |
-| `clinic` | `domain` | `feru` | year |
-| `clothing` | `domain` | `feru` | year |
-| `cloud` | `domain` | `feru` | year |
-| `club` | `domain` | `feru` | year |
-| `co` | `domain` | `feru` | year |
-| `codes` | `domain` | `feru` | year |
-| `coffee` | `domain` | `feru` | year |
-| `com` | `domain` | `feru` | year |
-| `community` | `domain` | `feru` | year |
-| `company` | `domain` | `feru` | year |
-| `computer` | `domain` | `feru` | year |
-| `condos` | `domain` | `feru` | year |
-| `construction` | `domain` | `feru` | year |
-| `contractors` | `domain` | `feru` | year |
-| `cool` | `domain` | `feru` | year |
-| `cruises` | `domain` | `feru` | year |
-| `date` | `domain` | `feru` | year |
-| `dating` | `domain` | `feru` | year |
-| `de` | `domain` | `feru` | year |
-| `deals` | `domain` | `feru` | year |
-| `dental` | `domain` | `feru` | year |
-| `dev` | `domain` | `feru` | year |
-| `diamonds` | `domain` | `feru` | year |
-| `digital` | `domain` | `feru` | year |
-| `direct` | `domain` | `feru` | year |
-| `directory` | `domain` | `feru` | year |
-| `discount` | `domain` | `feru` | year |
-| `domains` | `domain` | `feru` | year |
-| `download` | `domain` | `feru` | year |
-| `education` | `domain` | `feru` | year |
-| `email` | `domain` | `feru` | year |
-| `engineering` | `domain` | `feru` | year |
-| `enterprises` | `domain` | `feru` | year |
-| `equipment` | `domain` | `feru` | year |
-| `estate` | `domain` | `feru` | year |
-| `eu` | `domain` | `feru` | year |
-| `events` | `domain` | `feru` | year |
-| `exchange` | `domain` | `feru` | year |
-| `expert` | `domain` | `feru` | year |
-| `exposed` | `domain` | `feru` | year |
-| `fail` | `domain` | `feru` | year |
-| `farm` | `domain` | `feru` | year |
-| `financial` | `domain` | `feru` | year |
-| `fish` | `domain` | `feru` | year |
-| `fitness` | `domain` | `feru` | year |
-| `flights` | `domain` | `feru` | year |
-| `florist` | `domain` | `feru` | year |
-| `fm` | `domain` | `feru` | year |
-| `foundation` | `domain` | `feru` | year |
-| `fun` | `domain` | `feru` | year |
-| `fund` | `domain` | `feru` | year |
-| `furniture` | `domain` | `feru` | year |
-| `gallery` | `domain` | `feru` | year |
-| `games` | `domain` | `feru` | year |
-| `gift` | `domain` | `feru` | year |
-| `glass` | `domain` | `feru` | year |
-| `golf` | `domain` | `feru` | year |
-| `graphics` | `domain` | `feru` | year |
-| `gripe` | `domain` | `feru` | year |
-| `guide` | `domain` | `feru` | year |
-| `guitars` | `domain` | `feru` | year |
-| `guru` | `domain` | `feru` | year |
-| `hiphop` | `domain` | `feru` | year |
-| `holdings` | `domain` | `feru` | year |
-| `host ⚠ ambiguous` | `domain` | `feru` | year |
-| `hosting` | `domain` | `feru` | year |
-| `house` | `domain` | `feru` | year |
-| `in` | `domain` | `feru` | year |
-| `industries` | `domain` | `feru` | year |
-| `info` | `domain` | `feru` | year |
-| `ink` | `domain` | `feru` | year |
-| `institute` | `domain` | `feru` | year |
-| `international` | `domain` | `feru` | year |
-| `investments` | `domain` | `feru` | year |
-| `io` | `domain` | `feru` | year |
-| `juegos` | `domain` | `feru` | year |
-| `kitchen` | `domain` | `feru` | year |
-| `kz` | `domain` | `feru` | year |
-| `land` | `domain` | `feru` | year |
-| `lease` | `domain` | `feru` | year |
-| `life` | `domain` | `feru` | year |
-| `lighting` | `domain` | `feru` | year |
-| `limited` | `domain` | `feru` | year |
-| `limo` | `domain` | `feru` | year |
-| `link` | `domain` | `feru` | year |
-| `loan` | `domain` | `feru` | year |
-| `love` | `domain` | `feru` | year |
-| `maison` | `domain` | `feru` | year |
-| `management` | `domain` | `feru` | year |
-| `marketing` | `domain` | `feru` | year |
-| `me` | `domain` | `feru` | year |
-| `media` | `domain` | `feru` | year |
-| `men` | `domain` | `feru` | year |
-| `mn` | `domain` | `feru` | year |
-| `mobi` | `domain` | `feru` | year |
-| `monster` | `domain` | `feru` | year |
-| `moscow` | `domain` | `feru` | year |
-| `name` | `domain` | `feru` | year |
-| `net` | `domain` | `feru` | year |
-| `nu` | `domain` | `feru` | year |
-| `online` | `domain` | `feru` | year |
-| `ooo` | `domain` | `feru` | year |
-| `org` | `domain` | `feru` | year |
-| `partners` | `domain` | `feru` | year |
-| `parts` | `domain` | `feru` | year |
-| `party` | `domain` | `feru` | year |
-| `photo` | `domain` | `feru` | year |
-| `photography` | `domain` | `feru` | year |
-| `photos` | `domain` | `feru` | year |
-| `pics` | `domain` | `feru` | year |
-| `pictures` | `domain` | `feru` | year |
-| `pink` | `domain` | `feru` | year |
-| `plumbing` | `domain` | `feru` | year |
-| `press` | `domain` | `feru` | year |
-| `pro ⚠ ambiguous` | `domain` | `feru` | year |
-| `productions` | `domain` | `feru` | year |
-| `properties` | `domain` | `feru` | year |
-| `property` | `domain` | `feru` | year |
-| `pw` | `domain` | `feru` | year |
-| `recipes` | `domain` | `feru` | year |
-| `red` | `domain` | `feru` | year |
-| `reisen` | `domain` | `feru` | year |
-| `rentals` | `domain` | `feru` | year |
-| `repair` | `domain` | `feru` | year |
-| `report` | `domain` | `feru` | year |
-| `rest` | `domain` | `feru` | year |
-| `restaurant` | `domain` | `feru` | year |
-| `ro` | `domain` | `feru` | year |
-| `ru` | `domain` | `feru` | year |
-| `run` | `domain` | `feru` | year |
-| `school` | `domain` | `feru` | year |
-| `schule` | `domain` | `feru` | year |
-| `services` | `domain` | `feru` | year |
-| `sexy` | `domain` | `feru` | year |
-| `shoes` | `domain` | `feru` | year |
-| `shop` | `domain` | `feru` | year |
-| `singles` | `domain` | `feru` | year |
-| `site` | `domain` | `feru` | year |
-| `solar` | `domain` | `feru` | year |
-| `solutions` | `domain` | `feru` | year |
-| `space` | `domain` | `feru` | year |
-| `store` | `domain` | `feru` | year |
-| `su` | `domain` | `feru` | year |
-| `supplies` | `domain` | `feru` | year |
-| `supply` | `domain` | `feru` | year |
-| `support` | `domain` | `feru` | year |
-| `surgery` | `domain` | `feru` | year |
-| `systems` | `domain` | `feru` | year |
-| `tatar` | `domain` | `feru` | year |
-| `tattoo` | `domain` | `feru` | year |
-| `tax` | `domain` | `feru` | year |
-| `tech` | `domain` | `feru` | year |
-| `technology` | `domain` | `feru` | year |
-| `tel` | `domain` | `feru` | year |
-| `tienda` | `domain` | `feru` | year |
-| `tips` | `domain` | `feru` | year |
-| `today` | `domain` | `feru` | year |
-| `tools` | `domain` | `feru` | year |
-| `top` | `domain` | `feru` | year |
-| `town` | `domain` | `feru` | year |
-| `toys` | `domain` | `feru` | year |
-| `trade` | `domain` | `feru` | year |
-| `training` | `domain` | `feru` | year |
-| `tv` | `domain` | `feru` | year |
-| `tw` | `domain` | `feru` | year |
-| `university` | `domain` | `feru` | year |
-| `uno` | `domain` | `feru` | year |
-| `us` | `domain` | `feru` | year |
-| `vacations` | `domain` | `feru` | year |
-| `ventures` | `domain` | `feru` | year |
-| `viajes` | `domain` | `feru` | year |
-| `villas` | `domain` | `feru` | year |
-| `vip` | `domain` | `feru` | year |
-| `vision` | `domain` | `feru` | year |
-| `voyage` | `domain` | `feru` | year |
-| `watch` | `domain` | `feru` | year |
-| `webcam` | `domain` | `feru` | year |
-| `website` | `domain` | `feru` | year |
-| `wiki` | `domain` | `feru` | year |
-| `win` | `domain` | `feru` | year |
-| `works` | `domain` | `feru` | year |
-| `world` | `domain` | `feru` | year |
-| `ws` | `domain` | `feru` | year |
-| `wtf` | `domain` | `feru` | year |
-| `xyz` | `domain` | `feru` | year |
-| `zone` | `domain` | `feru` | year |
-| `EFH-1` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `EFH-2` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `EFH-3` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `EFH-4` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `EFH-5` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `IC14-1` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `IC14-2` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `IC14-3` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `IC14-4` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `IC14-5` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `RX32-1` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `RX32-2` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `RX32-3` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `RX32-4` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
-| `RX32-5` | `hicpu` | `vm6` | half_year, hour, month, quarter_year, year |
 | `1000GB` | `s3` | `s3` | month |
 | `100GB` | `s3` | `s3` | month |
 | `10GB` | `s3` | `s3` | month |
@@ -285,129 +428,19 @@ resource "aeza_service" "server" {
 | `250GB` | `s3` | `s3` | month |
 | `500GB` | `s3` | `s3` | month |
 | `6000GB` | `s3` | `s3` | month |
+| `Extra Large` | `vpn` | `vpn` | half_year, month, quarter_year, year |
 | `Host ⚠ ambiguous` | `soft` | `ispmgr` | month, year |
+| `Large` | `vpn` | `vpn` | half_year, month, quarter_year, year |
 | `Lite` | `soft` | `ispmgr` | month, year |
-| `Pro ⚠ ambiguous` | `soft` | `ispmgr` | month, year |
+| `Medium` | `vpn` | `vpn` | half_year, month, quarter_year, year |
 | `NAS-1` | `storage` | `vm6` | hour, month |
 | `NAS-12` | `storage` | `vm6` | half_year, hour, month, quarter_year, year |
 | `NAS-16` | `storage` | `vm6` | half_year, hour, month, quarter_year, year |
 | `NAS-2` | `storage` | `vm6` | half_year, hour, month, quarter_year, year |
 | `NAS-4` | `storage` | `vm6` | half_year, hour, month, quarter_year, year |
 | `NAS-8` | `storage` | `vm6` | half_year, hour, month, quarter_year, year |
-| `Extra Large` | `vpn` | `vpn` | half_year, month, quarter_year, year |
-| `Large` | `vpn` | `vpn` | half_year, month, quarter_year, year |
-| `Medium` | `vpn` | `vpn` | half_year, month, quarter_year, year |
+| `Pro ⚠ ambiguous` | `soft` | `ispmgr` | month, year |
 | `Small` | `vpn` | `vpn` | half_year, month, quarter_year, year |
-| `CLT-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `CLT-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `CLT-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `CLT-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `CLT-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `CLTs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `CLTs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `CLTs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `CLTs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `CLTs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DE-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DE-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DE-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DE-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DE-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DEs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DEs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DEs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DEs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `DEs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HEL-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HEL-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HEL-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HEL-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HEL-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HELs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HELs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HELs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HELs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `HELs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LND-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LND-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LND-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LND-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LND-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LNDs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LNDs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LNDs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LNDs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `LNDs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSK-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSK-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSK-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSK-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSK-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSKs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSKs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSKs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSKs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `MSKs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NL-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NL-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NL-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NL-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NL-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NLs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NLs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NLs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NLs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `NLs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PAR-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PAR-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PAR-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PAR-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PAR-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PARs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PARs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PARs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PARs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `PARs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPB-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPB-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPB-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPB-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPB-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPBs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPBs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPBs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPBs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SPBs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWE-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWE-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWE-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWE-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWE-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWE-PROMO` | `vps` | `vm6` | month |
-| `SWEs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWEs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWEs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWEs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `SWEs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIE-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIE-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIE-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIE-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIE-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIEs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIEs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIEs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIEs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `VIEs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAW-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAW-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAW-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAW-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAW-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAWs-1` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAWs-2` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAWs-3` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAWs-4` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
-| `WAWs-5` | `vps` | `vm6` | half_year, hour, month, quarter_year, year |
+
 
 Names marked **ambiguous** occur more than once in the API response. Use `product_id` for those products.
