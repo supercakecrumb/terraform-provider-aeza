@@ -88,13 +88,13 @@ func (r *Request) Do(ctx context.Context, result interface{}) error {
 
 	duration := time.Since(start)
 
-		r.client.logResponse(req.Method, fullURL, resp.Status, responseBody, resp.Header, duration)
+	r.client.logResponse(req.Method, fullURL, resp.Status, responseBody, resp.Header, duration)
 
-		if resp.StatusCode >= 400 {
-		return fmt.Errorf("API error %d: %s", resp.StatusCode, string(responseBody))
+	if resp.StatusCode >= 400 {
+		return fmt.Errorf("API error %d", resp.StatusCode)
 	}
 
-		if result != nil {
+	if result != nil {
 		if err := json.Unmarshal(responseBody, result); err != nil {
 			return fmt.Errorf("failed to unmarshal response: %w", err)
 		}
